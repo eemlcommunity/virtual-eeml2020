@@ -11,20 +11,18 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       {{ sponsor.organizers | join(", ") }}
     </h3>
-    <div class="text-center p-3">
-      <a class="card-link" data-toggle="collapse" role="button" href="#details">
-        Description
-      </a>
-    </div>
   </div>
 </div>
-<div id="details" class="pp-card m-3 collapse">
+<div id="details" class="pp-card m-3">
   <div class="card-body">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <span class="font-weight-bold">Description:</span>
         {{sponsor.abstract|safe}} <br /><br />
       </div>
+    </div>
+    <div align="center">
+      <iframe width="560" height="315" src="{{ sponsor.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <p></p>
   </div>

@@ -140,6 +140,8 @@ def format_paper(v):
             "TLDR": v["abstract"],
             "recs": [],
             "session": list_fields["session"],
+            "teaserUrl": v["teaserUrl"],
+            "youtubeUrl": v["youtubeUrl"],
             #"pdf_url": v.get("pdf_url", ""),
         },
     }
@@ -156,6 +158,7 @@ def format_sponsor(v):
         "title": v["title"],
         "organizers": list_fields["authors"],
         "abstract": v["abstract"],
+        "videoUrl": v["videoUrl"],
     }
 
 
