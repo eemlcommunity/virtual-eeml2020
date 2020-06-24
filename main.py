@@ -55,7 +55,7 @@ def _data():
 
 @app.route("/")
 def index():
-    return redirect("/calendar.html")
+    return redirect("/index.html")
 
 
 # TOP LEVEL PAGES
