@@ -134,7 +134,7 @@ const start = () => {
 
 
     d3.json('papers.json').then(papers => {
-        console.log(papers, "--- papers");
+        console.log(papers, "--- papers!!");
 
         shuffleArray(papers);
 
@@ -201,7 +201,7 @@ const keyword = kw => `<a href="papers.html?filter=keywords&search=${kw}"
                        class="text-secondary text-decoration-none">${kw.toLowerCase()}</a>`
 
 const card_image = (openreview, show) => {
-    if (show) return ` <center><img class="lazy-load-img cards_img" data-src="https://iclr.github.io/iclr-images/small/${openreview.id}.jpg" width="80%"/></center>`
+    if (show) return ` <center><img class="lazy-load-img cards_img" data-src="${openreview.content.teaserUrl}" width="80%"/></center>`
     else return ''
 }
 
