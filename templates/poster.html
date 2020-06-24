@@ -1,0 +1,109 @@
+{% set page_title = paper.content.title %}
+{% extends "base.html" %}
+
+{% block head %}
+
+{{ super() }}
+<meta name="citation_title" content="{{paper.content.title}}" />
+{% for author in paper.content.authors %}
+<meta name="citation_author" content="{{author}}" />
+{% endfor %}
+<meta name="citation_publication_date" content="{{config.date}}" />
+<meta name="citation_conference_title" content="{{config.tagline|striptags|title}}" />
+<meta name="citation_inbook_title" content="{{config.proceedings_title}}" />
+<meta name="citation_abstract" content="{{paper.content.abstract}}" />
+{% for keyword in paper.content.keywords %}
+<meta name="citation_keywords" content="{{keyword}}" />
+{% endfor %}
+<meta name="citation_pdf_url" content="{{paper.content.pdf_url | default("")}}" />
+
+{% endblock %}
+
+{% block content %}
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <h2 class="card-title main-title text-center" style="">
+      {{paper.content.title}}
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      {% for author in paper.content.authors %}
+      <a href="papers.html?filter=authors&search={{author}}" class="text-muted"
+        >{{author}}</a
+      >{{ "," if not loop.last }}
+      {% endfor %}
+    </h3>
+    <p class="card-text text-center">
+      <span class="">Keywords:</span>
+      {% for keyword in paper.content.keywords %}
+      <a
+        href="papers.html?filter=keywords&search={{keyword}}"
+        class="text-secondary text-decoration-none"
+        >{{keyword}}</a
+      >{{ "," if not loop.last }}
+      {% endfor %}
+    </p>
+    <div class="text-center p-3">
+      <a class="card-link" data-toggle="collapse" role="button" href="#details">
+        Abstract
+      </a>
+    </div>
+  </div>
+</div>
+<div id="details" class="pp-card m-3 collapse">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <span class="font-weight-bold">Abstract:</span>
+        {{paper.content.abstract}}
+      </div>
+    </div>
+    <p></p>
+  </div>
+</div>
+
+<h5 style="color: red;">
+  Add content for posters. This could be a video, embedded pdf, chat room ....
+</h5>
+
+<!-- Chat -->
+{{ components.section("Example Chat") }}
+
+<div class="col-md-12 col-xs-12 p-2">
+  <div id="gitter" class="slp">
+    <center>
+      <iframe frameborder="0" src="https://{{config.chat_server}}/channel/paper_{{paper.id}}?layout=embedded" height="700px" width="100%" ></iframe>
+    </center>
+  </div>
+</div>
+
+<!-- Slides Live-->
+
+{{ components.section("Example SlidesLive") }}
+
+<div class="col-md-12 col-xs-12 my-auto p-2" >
+  <div id="presentation-embed" class="slp my-auto"></div>
+  <script src='https://slideslive.com/embed_presentation.js'></script>
+  <script>
+    embed = new SlidesLiveEmbed('presentation-embed', { 
+    presentationId: '{{paper.presentation_id | default(config.default_presentation_id)}}',
+    autoPlay: false, // change to true to autoplay the embedded presentation
+    verticalEnabled: true,
+    verticalWhenWidthLte: 500,
+    allowHiddenControlsWhenPaused: true,
+    hideTitle: true
+    });
+  </script>
+</div>
+
+
+<!-- Chat -->
+
+
+
+
+
+
+
+{% endblock %}

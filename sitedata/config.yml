@@ -1,0 +1,33 @@
+name: EEML
+tagline: EEML <br> Summer School <br> MANAGEMENT
+date: July 2020
+proceedings_title: Eastern European Machine Learning summer school EEML 2020
+analytics: UA-
+logo:
+  image: static/images/eeml_logo.png
+  width: 180px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+# site_title: EEML
+page_title:
+  prefix: 'EEML 2020'
+  separator: ': '
+background_image: static/images/main.jpg
+organization: EEML Organising Team
+
+# Remove or change to your chat server.
+chat_server: chat.eeml.eu
+server: https://chat.eeml.eu
+username: gabi.marchidan@gmail.com
+password: CWOcOW8vJjfXiNlC`ICz4hjV
+default_presentation_id: 38922815
+default_poster_pdf: /static/images/GLTR_poster.pdf
+
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ---: '#bed972'
+    qa: '#4FCAEB'
+    talk: '#ccc'
+  sunday_saturday: true  #  Include Sunday and Saturday
+
