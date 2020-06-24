@@ -98,6 +98,11 @@ def schedule():
        #      format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
         ],
     }
+    data["0106"] = {
+        "speakers":  filter(lambda x: x["session"] == "lecture", site_data["speakers"]),
+        "highlighted": [
+        ]
+    }
     return render_template("schedule.html", **data)
 
 
