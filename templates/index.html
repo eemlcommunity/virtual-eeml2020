@@ -28,11 +28,57 @@
 {% endblock %}
 
 {% block content %}
+<div class="row" style="height:100px">
+</div>
+<div class="row">
+  <div class="col">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/krv9q66_bKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
-{{ readme | markdown }}
+  <div class="col">
+    <iframe src="https://app.sli.do/event/xx1samk5" height="315px" width="100%" style="min-height: 315px;"></iframe>
+  </div>
+</div>
+<div class="row" style="height:50px">
+</div>
+<div class="row">
+  Networking rooms
+</div>
+<div class="row" style="height:50px">
+</div>
+<div class="row" style="height:120px">
+  <div class="col-sm-3" >
+    <img src="/static/images/sponsors/Deepmind.png" class="img-fluid" >
+  </div>
+  <div class="col-sm-3">
+    <img src="/static/images/sponsors/AllegroTech.png" class="img-fluid" style="padding-top:10%;">
+  </div>
+  <div class="col-sm-3">
+    <img src="/static/images/sponsors/Intel.png" class="img-fluid" style="height:70%; padding-left:20%" >
+  </div>
+  <div class="col-sm-3">
+    <img src="/static/images/sponsors/VisageTechnologies.png" class="img-fluid">
+  </div>
+</div>
+
+<div class="row" style="height:120px">
+   <div class="col-sm-3" >
+    <img src="/static/images/sponsors/BRD.png" class="img-fluid" >
+  </div>
+   <div class="col-sm-3" >
+    <img src="/static/images/sponsors/DisplayLink.png" class="img-fluid" >
+  </div>
+   <div class="col-sm-3" >
+    <img src="/static/images/sponsors/Oveit.png" class="img-fluid" >
+  </div>
+   <div class="col-sm-3" >
+    <img src="/static/images/sponsors/Rakuten.png" class="img-fluid" >
+  </div>
+</div>
+<!--{{ readme | markdown }}-->
 
 <!-- Organizers -->
-{{ components.section("Organizers") }}
-{{ components.organizergroup(committee) }}
+<!--{{ components.section("Organizers") }}-->
+<!--{{ components.organizergroup(committee) }}-->
 
 {% endblock %}
