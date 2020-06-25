@@ -94,55 +94,34 @@ def schedule():
     data = _data()
     data["day"] = {
         "speakers": site_data["speakers"],
-        "highlighted": [
-       #      format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
-        ],
     }
     #print(site_data["speakers"])
     data["day1"] = {
         "speakers": filter(lambda x: x["session"] == "1", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day2"] = {
         "speakers":  filter(lambda x: x["session"] == "2", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day3"] = {
         "speakers":  filter(lambda x: x["session"] == "3", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day4"] = {
         "speakers":  filter(lambda x: x["session"] == "4", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day5"] = {
         "speakers":  filter(lambda x: x["session"] == "5", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day6"] = {
         "speakers":  filter(lambda x: x["session"] == "6", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day7"] = {
         "speakers":  filter(lambda x: x["session"] == "7", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day8"] = {
         "speakers":  filter(lambda x: x["session"] == "8", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     data["day9"] = {
         "speakers":  filter(lambda x: x["session"] == "9", site_data["speakers"]),
-        "highlighted": [
-        ]
     }
     return render_template("schedule.html", **data)
 
