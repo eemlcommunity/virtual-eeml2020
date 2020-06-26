@@ -204,13 +204,13 @@ def poster(poster):
     return render_template("poster.html", **data)
 
 
-@app.route("/speaker_<speaker>.html")
-def speaker(speaker):
-    uid = speaker
-    v = by_uid["speakers"][uid]
-    data = _data()
-    data["speaker"] = v
-    return render_template("speaker.html", **data)
+#@app.route("/speaker_<speaker>.html")
+#def speaker(speaker):
+#    uid = speaker
+#    v = by_uid["speakers"][uid]
+#    data = _data()
+#    data["speaker"] = v
+#    return render_template("speaker.html", **data)
 
 
 @app.route("/sponsor_<sponsor>.html")
@@ -258,8 +258,8 @@ def generator():
 
     for paper in site_data["papers"]:
         yield "poster", {"poster": str(paper["UID"])}
-    for speaker in site_data["speakers"]:
-        yield "speaker", {"speaker": str(speaker["UID"])}
+    #for speaker in site_data["speakers"]:
+    #    yield "speaker", {"speaker": str(speaker["UID"])}
     for sponsor in site_data["sponsors"]:
         yield "sponsor", {"sponsor": str(sponsor["UID"])}
 
