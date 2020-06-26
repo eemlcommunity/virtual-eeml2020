@@ -44,6 +44,7 @@ app.config.from_object(__name__)
 freezer = Freezer(app)
 markdown = Markdown(app)
 
+
 # MAIN PAGES
 
 
@@ -67,9 +68,10 @@ def home():
     data["readme"] = open("README.md").read()
     data["committee"] = site_data["committee"]["committee"]
     return render_template("index.html", **data)
-    
-#@app.route("/slido.html")
-#def slido():
+
+
+# @app.route("/slido.html")
+# def slido():
 #    data = _data()
 #    data["slido"] = site_data["slido"]["slido"]
 #    return render_template("slido.html", **data)
@@ -101,33 +103,33 @@ def schedule():
     data["day"] = {
         "speakers": site_data["speakers"],
     }
-    #print(site_data["speakers"])
+    # print(site_data["speakers"])
     data["day1"] = {
         "speakers": filter(lambda x: x["session"] == "1", site_data["speakers"]),
     }
     data["day2"] = {
-        "speakers":  filter(lambda x: x["session"] == "2", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "2", site_data["speakers"]),
     }
     data["day3"] = {
-        "speakers":  filter(lambda x: x["session"] == "3", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "3", site_data["speakers"]),
     }
     data["day4"] = {
-        "speakers":  filter(lambda x: x["session"] == "4", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "4", site_data["speakers"]),
     }
     data["day5"] = {
-        "speakers":  filter(lambda x: x["session"] == "5", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "5", site_data["speakers"]),
     }
     data["day6"] = {
-        "speakers":  filter(lambda x: x["session"] == "6", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "6", site_data["speakers"]),
     }
     data["day7"] = {
-        "speakers":  filter(lambda x: x["session"] == "7", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "7", site_data["speakers"]),
     }
     data["day8"] = {
-        "speakers":  filter(lambda x: x["session"] == "8", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "8", site_data["speakers"]),
     }
     data["day9"] = {
-        "speakers":  filter(lambda x: x["session"] == "9", site_data["speakers"]),
+        "speakers": filter(lambda x: x["session"] == "9", site_data["speakers"]),
     }
     return render_template("schedule.html", **data)
 
@@ -140,10 +142,18 @@ def sponsors():
     ]
     return render_template("sponsors.html", **data)
 
+
 @app.route("/postersessions.html")
 def postersessions():
     data = _data()
     return render_template("postersessions.html", **data)
+
+
+@app.route("/slido.html")
+def slido():
+    data = _data()
+    return render_template("slido.html", **data)
+
 
 def extract_list_field(v, key):
     value = v.get(key, "")
@@ -172,7 +182,7 @@ def format_paper(v):
             "session": list_fields["session"],
             "teaserUrl": v["teaserUrl"],
             "youtubeUrl": v["youtubeUrl"],
-            #"pdf_url": v.get("pdf_url", ""),
+            # "pdf_url": v.get("pdf_url", ""),
         },
     }
 
@@ -255,7 +265,6 @@ def serve(path):
 
 @freezer.register_generator
 def generator():
-
     for paper in site_data["papers"]:
         yield "poster", {"poster": str(paper["UID"])}
     for speaker in site_data["speakers"]:
