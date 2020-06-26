@@ -27,7 +27,13 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 calendar:
   colors: #  Colors for the different event hashtags:
     ---: '#bed972'
-    qa: '#4FCAEB'
-    talk: '#ccc'
+    lecture: '#C4F9E4'
+    poster: '#B7BEF7'
+    break: '#F9F4C0'
+    flecture: '#C4F9E8'
+    panel: '#C1E2FA'
+    tutorial: '#EEB558'
+    fun: '#E2B3F4'
+    keynote: '#DA84AD'
   sunday_saturday: true  #  Include Sunday and Saturday
 
