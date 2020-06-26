@@ -30,7 +30,7 @@ if __name__ == "__main__":
                             session=session)
 
         for paper in papers:
-            channel_name = "paper_" + paper["UID"]
+            channel_name = "zzz_paper_" + paper["UID"]
             if not args.test:
                 created = rocket.channels_create(channel_name).json()
                 print(channel_name, created)
