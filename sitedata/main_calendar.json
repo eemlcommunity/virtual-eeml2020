@@ -9,6 +9,15 @@
     "calendarId": "lecture"
   },
   {
+    "title": "Discriminative and generative model insights into biological vision (Gergo)",
+    "start": "2020-07-07T08:20:00+00:00",
+    "end": "2020-07-07T09:30:00+00:00",
+    "location": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
+    "link": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
+    "category": "time",
+    "calendarId": "lecture"
+  },
+  {
     "title": "Applying Graph Neural Networks at the Bleeding Edge (Petar)",
     "start": "2020-07-07T09:50:00+00:00",
     "end": "2020-07-07T10:35:00+00:00",
@@ -16,6 +25,15 @@
     "link": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
     "category": "time",
     "calendarId": "flecture"
+  },
+  {
+    "title": "From classical statistics to modern ML: the lessons of deep learning for generalization and optimization (Mikhail)",
+    "start": "2020-07-07T13:00:00+00:00",
+    "end": "2020-07-07T14:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
+    "link": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
+    "category": "time",
+    "calendarId": "lecture"
   },
   {
     "title": "Reinforcement Learning (Feryal, Gheorghe)",
@@ -421,24 +439,6 @@
     "link": "https://test-virtual.eeml.eu/calendar.html#tab-day8",
     "category": "time",
     "calendarId": "panel"
-  },
-  {
-    "title": "Discriminative and generative model insights into biological vision (Gergo)",
-    "start": "2020-07-07T08:20:00+00:00",
-    "end": "2020-07-07T09:30:00+00:00",
-    "location": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
-    "link": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
-    "category": "time",
-    "calendarId": "lecture"
-  },
-  {
-    "title": "From classical statistics to modern ML: the lessons of deep learning for generalization and optimization (Mikhail)",
-    "start": "2020-07-07T13:00:00+00:00",
-    "end": "2020-07-07T14:10:00+00:00",
-    "location": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
-    "link": "https://test-virtual.eeml.eu/calendar.html#tab-day7",
-    "category": "time",
-    "calendarId": "lecture"
   },
   {
     "title": "Yoga session #1",
