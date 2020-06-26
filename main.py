@@ -140,6 +140,10 @@ def sponsors():
     ]
     return render_template("sponsors.html", **data)
 
+@app.route("/postersessions.html")
+def postersessions():
+    data = _data()
+    return render_template("postersessions.html", **data)
 
 def extract_list_field(v, key):
     value = v.get(key, "")
