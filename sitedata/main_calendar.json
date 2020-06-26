@@ -36,15 +36,6 @@
     "calendarId": "gm"
   },
   {
-    "title": "Poster session 3b",
-    "start": "2020-07-03T13:00:00+00:00",
-    "end": "2020-07-03T14:10:00+00:00",
-    "location": "https://test-virtual.eeml.eu/papers.html?session=3b&filter=keywords",
-    "link": "https://test-virtual.eeml.eu/papers.html?session=3b&filter=keywords",
-    "category": "time",
-    "calendarId": "poster"
-  },
-  {
     "title": "Fireside David Silver",
     "start": "2020-07-08T13:00:00+00:00",
     "end": "2020-07-08T14:00:00+00:00",
@@ -54,11 +45,29 @@
     "calendarId": "panel"
   },
   {
+    "title": "Poster session 1a",
+    "start": "2020-07-01T09:50:00+00:00",
+    "end": "2020-07-01T11:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/papers.html?session=1a&filter=keywords",
+    "link": "https://test-virtual.eeml.eu/papers.html?session=1a&filter=keywords",
+    "category": "time",
+    "calendarId": "poster"
+  },
+  {
     "title": "Poster session 1b",
     "start": "2020-07-01T09:50:00+00:00",
     "end": "2020-07-01T11:10:00+00:00",
     "location": "https://test-virtual.eeml.eu/papers.html?session=1b&filter=keywords",
     "link": "https://test-virtual.eeml.eu/papers.html?session=1b&filter=keywords",
+    "category": "time",
+    "calendarId": "poster"
+  },
+  {
+    "title": "Poster session 1c",
+    "start": "2020-07-01T09:50:00+00:00",
+    "end": "2020-07-01T11:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/papers.html?session=1c&filter=keywords",
+    "link": "https://test-virtual.eeml.eu/papers.html?session=1c&filter=keywords",
     "category": "time",
     "calendarId": "poster"
   },
@@ -180,15 +189,6 @@
     "calendarId": "lecture"
   },
   {
-    "title": "Poster session 3c",
-    "start": "2020-07-03T13:00:00+00:00",
-    "end": "2020-07-03T14:10:00+00:00",
-    "location": "",
-    "link": "",
-    "category": "time",
-    "calendarId": "poster"
-  },
-  {
     "title": "Deep Reinforcement Learning (Doina)",
     "start": "2020-07-02T13:00:00+00:00",
     "end": "2020-07-02T14:10:00+00:00",
@@ -196,6 +196,15 @@
     "link": "https://test-virtual.eeml.eu/calendar.html#tab-day2",
     "category": "time",
     "calendarId": "lecture"
+  },
+  {
+    "title": "Poster session 2a",
+    "start": "2020-07-02T09:50:00+00:00",
+    "end": "2020-07-02T11:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/papers.html?session=2a&filter=keywords",
+    "link": "https://test-virtual.eeml.eu/papers.html?session=2a&filter=keywords",
+    "category": "time",
+    "calendarId": "poster"
   },
   {
     "title": "Poster session 2b",
@@ -207,11 +216,11 @@
     "calendarId": "poster"
   },
   {
-    "title": "Poster session 1c",
-    "start": "2020-07-01T09:50:00+00:00",
-    "end": "2020-07-01T11:10:00+00:00",
-    "location": "https://test-virtual.eeml.eu/papers.html?session=1c&filter=keywords",
-    "link": "https://test-virtual.eeml.eu/papers.html?session=1c&filter=keywords",
+    "title": "Poster session 2c",
+    "start": "2020-07-02T09:50:00+00:00",
+    "end": "2020-07-02T11:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/papers.html?session=2c&filter=keywords",
+    "link": "https://test-virtual.eeml.eu/papers.html?session=2c&filter=keywords",
     "category": "time",
     "calendarId": "poster"
   },
@@ -234,6 +243,24 @@
     "calendarId": "poster"
   },
   {
+    "title": "Poster session 3b",
+    "start": "2020-07-03T13:00:00+00:00",
+    "end": "2020-07-03T14:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/papers.html?session=3b&filter=keywords",
+    "link": "https://test-virtual.eeml.eu/papers.html?session=3b&filter=keywords",
+    "category": "time",
+    "calendarId": "poster"
+  },
+  {
+    "title": "Poster session 3c",
+    "start": "2020-07-03T13:00:00+00:00",
+    "end": "2020-07-03T14:10:00+00:00",
+    "location": "https://test-virtual.eeml.eu/papers.html?session=3c&filter=keywords",
+    "link": "https://test-virtual.eeml.eu/papers.html?session=3c&filter=keywords",
+    "category": "time",
+    "calendarId": "poster"
+  },
+  {
     "title": "Lunch, mentorship, unconference",
     "start": "2020-07-08T11:30:00+00:00",
     "end": "2020-07-08T13:00:00+00:00",
@@ -252,24 +279,6 @@
     "calendarId": "keynote"
   },
   {
-    "title": "Poster session 2a",
-    "start": "2020-07-02T09:50:00+00:00",
-    "end": "2020-07-02T11:10:00+00:00",
-    "location": "https://test-virtual.eeml.eu/papers.html?session=2a&filter=keywords",
-    "link": "https://test-virtual.eeml.eu/papers.html?session=2a&filter=keywords",
-    "category": "time",
-    "calendarId": "poster"
-  },
-  {
-    "title": "Poster session 1a",
-    "start": "2020-07-01T09:50:00+00:00",
-    "end": "2020-07-01T11:10:00+00:00",
-    "location": "https://test-virtual.eeml.eu/papers.html?session=1a&filter=keywords",
-    "link": "https://test-virtual.eeml.eu/papers.html?session=1a&filter=keywords",
-    "category": "time",
-    "calendarId": "poster"
-  },
-  {
     "title": "Yoga session #2",
     "start": "2020-07-05T07:30:00+00:00",
     "end": "2020-07-05T08:30:00+00:00",
@@ -277,15 +286,6 @@
     "link": "",
     "category": "time",
     "calendarId": "fun"
-  },
-  {
-    "title": "Poster session 2c",
-    "start": "2020-07-02T09:50:00+00:00",
-    "end": "2020-07-02T11:10:00+00:00",
-    "location": "https://test-virtual.eeml.eu/papers.html?session=2c&filter=keywords",
-    "link": "https://test-virtual.eeml.eu/papers.html?session=2c&filter=keywords",
-    "category": "time",
-    "calendarId": "poster"
   },
   {
     "title": "Welcome to EEML2020",
