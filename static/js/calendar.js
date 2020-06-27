@@ -54,7 +54,8 @@ function make_cal(name) {
             const calendar = new Calendar('#calendar', {
                 defaultView: 'month',
                 isReadOnly: true,
-                // useDetailPopup: true,
+                //useDetailPopup: true,
+                //useCreationPopup: true,
                 taskView: false,
                 scheduleView: ['time'],
                 usageStatistics: false,
@@ -67,6 +68,7 @@ function make_cal(name) {
                     displayLabel: timezoneName,
                     tooltip: timezoneName
                 }],
+                //template: templates,
                 // timezones: [{
                 //     getTimezoneOffset: 540,
                 //     displayLabel: 'a',

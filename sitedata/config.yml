@@ -13,7 +13,7 @@ page_title:
   prefix: 'EEML 2020'
   separator: ': '
 background_image: static/images/main.jpg
-organization: EEML Organising Team
+organization: EEML Team
 
 # Remove or change to your chat server.
 chat_server: chat.eeml.eu
@@ -35,5 +35,6 @@ calendar:
     tutorial: '#EEB558'
     fun: '#E2B3F4'
     keynote: '#DA84AD'
+    gm: '#1CB8F2'
   sunday_saturday: true  #  Include Sunday and Saturday
 
