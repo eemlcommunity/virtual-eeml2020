@@ -210,15 +210,12 @@
       lazyLoader();
     </script>
   </div>
-  
-  
-  
+
 </div>
 <script type="text/javascript">
   $('.tab-calendar').on('click', function (e) {
-    //e.preventDefault()
-    console.log("Click")
+    e.preventDefault()
     make_cal("serve_main_calendar.json")
-})
+  })
 </script>
 {% endblock %}
