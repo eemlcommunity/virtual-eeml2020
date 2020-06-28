@@ -4,6 +4,7 @@
 {% block head %}
 {{ super() }}
 {% include 'cal_head.html' %}
+
 {% endblock %}
 
 {% block tabs %}
@@ -34,6 +35,7 @@
     <script type="text/javascript">
       make_cal("serve_main_calendar.json");
     </script>
+
   </div>
 
   <!-- Day Tab -->
@@ -212,4 +214,11 @@
   
   
 </div>
+<script type="text/javascript">
+  $('.tab-calendar').on('click', function (e) {
+    //e.preventDefault()
+    console.log("Click")
+    make_cal("serve_main_calendar.json")
+})
+</script>
 {% endblock %}

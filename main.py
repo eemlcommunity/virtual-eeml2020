@@ -69,14 +69,6 @@ def home():
     data["committee"] = site_data["committee"]["committee"]
     return render_template("index.html", **data)
 
-
-# @app.route("/slido.html")
-# def slido():
-#    data = _data()
-#    data["slido"] = site_data["slido"]["slido"]
-#    return render_template("slido.html", **data)
-
-
 @app.route("/about.html")
 def about():
     data = _data()
