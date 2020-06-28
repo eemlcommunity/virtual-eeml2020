@@ -100,9 +100,6 @@ def paperVis():
 @app.route("/calendar.html")
 def schedule():
     data = _data()
-    data["day"] = {
-        "speakers": site_data["speakers"],
-    }
     # print(site_data["speakers"])
     data["day1"] = {
         "speakers": filter(lambda x: x["session"] == "1", site_data["speakers"]),
