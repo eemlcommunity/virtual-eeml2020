@@ -33,6 +33,11 @@
         {% for link in links %}{{link|safe}}<br/> {% endfor %}
       </div>
     {% endif %}
+    {% if sponsor.chatUrl != "" %}
+      <div align="center" style="margin-top:2%">
+        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{sponsor.chatUrl}}?layout=embedded" height="400px" width="70%" ></iframe>
+      </div>
+    {% endif %}
   </div>
 </div>
 
