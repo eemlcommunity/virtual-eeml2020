@@ -188,6 +188,9 @@ def format_sponsor(v):
         "organizers": list_fields["authors"],
         "abstract": v["abstract"],
         "videoUrl": v["videoUrl"],
+        "logoUrl":  v["logoUrl"],
+        "chatUrl": v["chatUrl"],
+        "links": v["links"],
     }
 
 

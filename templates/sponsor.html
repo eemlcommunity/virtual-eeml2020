@@ -21,10 +21,18 @@
         {{sponsor.abstract|safe}} <br /><br />
       </div>
     </div>
+    {% if sponsor.videoUrl != "" %}
     <div align="center">
       <iframe width="560" height="315" src="{{ sponsor.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <p></p>
+    {% endif %}
+    {% if sponsor.links != "" %}
+      {% set links = sponsor.links.split('|') %}
+      <div style="margin-top:2%;">
+        <span class="font-weight-bold">Useful links:</span><br/>
+        {% for link in links %}{{link|safe}}<br/> {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </div>
 
