@@ -35,6 +35,7 @@
 
 {% macro speakergroup(speakers) -%}
 {% for speaker in speakers %}
+{% if speaker.image.find("|") == -1 %}
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card">
@@ -63,6 +64,43 @@
     </div>
   </div>
 </div>
+{% else %}
+{% set images = speaker.image.split('|') %}
+{% set names = speaker.speaker.split('|') %}
+{% set institutions = speaker.institution.split('|') %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+
+          <div class="col">
+            <div class="m-3 text-muted">
+              <h3>
+                  {{speaker.title}}
+              </h3>
+            </div>
+            <div class="row" style="margin-left:0.1%">
+            {% for i in range( images|length ) %}
+            <div class="col-md-2 text-center" >
+               <img src="{{images[i]}}" width="100%" class="img-thumbnail" style="margin-bottom:7%;" />
+               <span class="card-title h4" >
+                {{names[i]}}  /  {{institutions[i]}}
+              </span>
+            </div>
+            {% endfor %}
+              </div>
+            <div class="m-3">
+              {{speaker.abstract|safe}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
 {% endfor %}
 {%- endmacro %}
 
