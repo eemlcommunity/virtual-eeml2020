@@ -1,14 +1,39 @@
 UID,"title","authors","abstract","videoUrl","logoUrl"
-1,"DeepMind","Diamond","We’re a team of scientists, engineers, machine learning experts and more, working together to advance the state of the art in artificial intelligence. We use our technologies for widespread public benefit and scientific discovery, and collaborate with others on critical challenges, ensuring safety and ethics are the highest priority.","https://www.youtube.com/embed/UuhECwm31dM","/static/images/sponsors/Deepmind.png"
-2,"Allegro","Diamond","Allegro is the #1 online shopping destination in Poland and the #6 eTail business in Europe. Started in 1999, today it is one of the most recognised brands in Poland. Allegro marketplace currently stands for 130 million offers listed each month, 140,000 merchants’ accounts (ranging from the world's biggest brands to small and medium enterprises), and over 21 million registered accounts. Making a site like this work requires a lot of engineering and as the site grows, we learn and adopt new technologies. What started out as a huge monolithic application, over the years migrated towards an ecosystem of loosely coupled microservices written in Java and other JVM languages running in the cloud. Creating a scalable and distributed system at this scale brings about many challenges which make our work interesting.","https://www.youtube.com/embed/A44ZgFhDBQY","/static/images/sponsors/AllegroTech.png"
+1,"DeepMind","Diamond","Artificial intelligence could be one of humanity's most useful inventions. DeepMind aims to build advanced AI to expand our knowledge and find new answers. By solving this one thing, we believe we could help people solve thousands of problems. We’re a team of scientists, engineers, machine learning experts and more, working together to advance the state of the art in artificial intelligence. We use our technologies for widespread public benefit and scientific discovery, and collaborate with others on critical challenges, ensuring safety and ethics are the highest priority. We have a track record of breakthroughs in fundamental AI research, published in journals like Nature, Science, and more. Our programs have learned to diagnose eye diseases as effectively as the world’s top doctors, to save 30% of the energy used to keep data centres cool, and to predict the complex 3D shapes of proteins - which could one day transform how drugs are invented.","no video","/static/images/sponsors/Deepmind.png"
+2,"Allegro","Diamond","Allegro.pl is the largest Polish e-commerce marketplace, with over 20 million of unique users and selection of over 150 milion offers. With the scale come many challenges best solved by machine learning. In this talk I will give you a whirlwind tour of the lifecycle of products and customers on the platform and how at each step of the journey we use ML to improve the shopping experience. Starting from adding new offers to the platform and matching them with suitable products, through textual and visual search, recommending new products, and finally, to automating customer support, I will zoom in at each step of the customer's journey and explain ML models working tirelessly behind the scenes. Get ready to hear about metric learning for both text and vision, multi-modal ranking and recommendations, training BERT models on Allegro’s corpora and how real-life problems lead to both production models and research questions and papers coming out of Machine Learning Research group at Allegro.pl","https://www.youtube.com/embed/A44ZgFhDBQY","/static/images/sponsors/AllegroTech.png"
 3,"Intel","Diamond","","","/static/images/sponsors/Intel.png"
 4,"Visage Technologies","Diamond","","","/static/images/sponsors/VisageTechnologies.png"
-5,"BRD","Gold","","","/static/images/sponsors/BRD.png"
-6,"DisplayLink","Gold","DisplayLink is a rapidly growing semiconductor and software company with development centres in Katowice and Cambridge; and offices in Palo Alto; New Taipei City; and Tokyo. We're a privately held company, backed by leading international investment funds.
+5,"BRD","Gold","BRD is a strong bank with over 90 years of tradition of Romania. With our 7,500
+employees in more than 750 units across the country, we stand by our clients, be they
+young, seniors, companies, employees or entrepreneurs. BRD Groupe Societe
+Generale is the third largest bank in Romania by assets and the fifth by market
+capitalization on the Bucharest Stock Exchange. BRD has 2.3 million customers on
+three main business lines: retail and SMEs, large corporations and investment banking.
+AI/ML current projects: Anti Money Laundering case detection (SL, UL), Predictive justice on Romanian jurisprudence focused on banking cases (NLP)
+Banking products recommender system (SL), Customer based pricing (SL, RL), Interactive semantic search on internal knowledge base (NLP).","no video","/static/images/sponsors/BRD.png"
+6,"Display Link","Gold","DisplayLink is a rapidly growing semiconductor and software company with development centres in Katowice and Cambridge; and offices in Palo Alto; New Taipei City; and Tokyo. We're a privately held company, backed by leading international investment funds.
 We’re working with huge brands, enabling new technology for their companies and customers. The software and hardware that we create forms a crucial part of universal docking stations, USB monitors, USB to Video adapters and Wireless VR products used all over the world.
 
-At DisplayLink we actively encourage experimentation: we're focused on changing the way things work and we need curious minds to drive that change. We've built a company where people come to learn and develop their technical skills and challenge themselves. We subscribe to agile working methodologies and we want everyone who works here to feel supported by their team, mentors and scrum masters.
+At DisplayLink we actively encourage experimentation: we're focused on changing the way things work and we need curious minds to drive that change. We've built a company where people come to learn and develop their technical skills and challenge themselves. We subscribe to agile working methodologies and we want everyone who works here to feel supported by their team, mentors and scrum masters. Get in touch: https://www.displaylink.com/careers ; https://pl.linkedin.com/company/displaylink","https://www.youtube.com/embed/7zG-Y535cOE","/static/images/sponsors/DisplayLink.png"
+7,"Oveit","Gold","Our company provides edge payments technology. Our tech is based on locally distributed ledgers, embedded in IoT devices and secured with AI algo … well, you get the point – there’s a lot of cool tech under the hood. What it boils down to is that Oveit allows you to do payments even if the internet is down, with very high numbers of transactions. It can operate in harsh conditions and with very high numbers of visitors.
 
-Get in touch:  https://www.displaylink.com/careers ; https://pl.linkedin.com/company/displaylink","https://www.youtube.com/embed/7zG-Y535cOE","/static/images/sponsors/DisplayLink.png"
-7,"Oveit","Gold","","","/static/images/sponsors/Oveit.png"
-8,"Rakuten","Gold","","","/static/images/sponsors/Rakuten.png"
+By the way – why edge? What does edge payments mean? Edge computing means data is being processed where it’s operated, at the edge of the cloud. Given that we focus on payments and we operate these through a buffer layer on location, we called the technology “edge payments”.
+
+To achieve our goals we continually develop our fraud detection systems, biometric identifiers as well as recommender systems based on NLP in our streaming product. We are always on the lookout for talented members to join our offices in Bucharest, Romania or Austin, TX, USA.","https://player.vimeo.com/video/312000658","/static/images/sponsors/Oveit.png"
+8,"Rakuten","Gold","Rakuten is the largest e-commerce company in Japan and one of the largest worldwide.
+Along with the global marketplaces, Rakuten supports an ever-expanding list of acquisitions
+and strategic investments in communications, fintech, digital contents, and gathers 1.4 billion
+users in an international ecosystem. Rakuten Institute of Technology is the research
+department of Rakuten, with teams in Tokyo, Singapore, Bangalore, Paris, USA (Boston and
+San Mateo) and is in charge of the “core science” part of Rakuten AI Platform Programs.
+Language Program helps building a well-organized catalog of products using advanced
+technologies to extract structured information from their titles and descriptions. Translation is
+another important domain where our technology almost reaches human quality across
+different business domains and languages, at speed required for effective communications.
+Vision Program builds novel systems of computer vision to recognize products, extract
+visual attributes, and enhance image quality. Language and Vision programs converge to
+create a multi-modal approach where we combine these different types of input to improve
+performances and apply weakly and self-supervised training.
+Customer Program investigates methodologies such as customer pre-trained models and
+policy optimization for digital contents delivery, to provide the best customer experience,
+leveraging the interaction data from 1.4 billion users.","https://global.rakuten.com/corp/","/static/images/sponsors/Rakuten.png"
