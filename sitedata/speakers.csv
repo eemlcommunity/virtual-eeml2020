@@ -26,7 +26,7 @@ addresses the main problems or high memory use and low performance on long seque
 16,"/static/images/speakers/DavidSilver.jpg","Reinforcement Learning","DeepMind","David Silver","TBD","","8"
 17,"/static/images/speakers/YoshuaBengio.jpg","AI for social good","MILA, Canada ","Yoshua Bengio","TBD","","9"
 18,"/static/images/speakers/ShakirMohamed.jpg","AI for social good","DeepMind","Shakir Mohamed","TBD","","9"
-19,"/static/images/speakers/CarlDoersch.png"|"/static/images/speakers/VioricaPatraucean.jpg","Supervised Learning","DeepMind"|"DeepMind","Carl Doersch"|"Viorica Patraucean","TBD","","1"
+19,"/static/images/speakers/CarlDoersch.png|/static/images/speakers/VioricaPatraucean.jpg","Supervised Learning","DeepMind|DeepMind","Carl Doersch|Viorica Patraucean","TBD","","1"
 21,"/static/images/speakers/FeryalBehbahani.png","Reinforcement Learning","DeepMind","Feryal Behbahani","TBD","","2"
 22,"/static/images/speakers/GheorgheComanici.jpg","Reinforcement Learning","DeepMind","Gheorghe Comanici","TBD","","2"
 23,"/static/images/speakers/DavidSzepesvari.jpg","Unsupervised Learning","DeepMind","David Szepesvari","TBD","","3"
