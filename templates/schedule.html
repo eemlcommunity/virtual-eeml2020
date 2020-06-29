@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block tabs %}
-{{ components.tabs([("calendar", "Calendar", "active"), ("day1", "Wednesday", ""), ("day2", "Thursday", ""), ("day3", "Friday", ""), ("day4", "Saturday", ""), ("day5", "Sunday", ""), ("day6", "Monday", ""), ("day7", "Tuesday", ""), ("day8", "Wednesday", ""), ("day9", "Thursday", "")]) }}
+{{ components.tabs([("calendar", "Calendar", "active"), ("day1", "Wednesday", ""), ("day2", "Thursday", ""), ("day3", "Friday", ""), ("day6", "Monday", ""), ("day7", "Tuesday", ""), ("day8", "Wednesday", ""), ("day9", "Thursday", "")]) }}
 {% endblock %}
 
 {% block content %}
@@ -94,44 +94,6 @@
     <script type="text/javascript">
       lazyLoader();
     </script>
-  </div>
-  
-  <div
-    class="tab-pane fade"
-    id="tab-day4"
-    role="tabpanel"
-    aria-labelledby="nav-profile-tab"
-  >
-    <div id="day4">
-      <!-- Speakers -->
-      {{ components.section("Speakers") }}
-      <div class="speakers">
-        {{ components.speakergroup(day4.speakers) }}
-      </div>
-    </div>
-
-    <script type="text/javascript">
-      lazyLoader();
-    </script>
-  </div>
-  
-  <div
-    class="tab-pane fade"
-    id="tab-day5"
-    role="tabpanel"
-    aria-labelledby="nav-profile-tab"
-  >
-    <div id="day5">
-      <!-- Speakers -->
-      {{ components.section("Speakers") }}
-      <div class="speakers">
-        {{ components.speakergroup(day5.speakers) }}
-      </div>
-    </div>
-
-    <script type="text/javascript">
-      lazyLoader();
-    </script> 
   </div>
   
   <div
