@@ -3,17 +3,13 @@
 
 {% block top %}
 <style>
-  .back {
-    background: url("{{config.background_image}}") no-repeat center;
-    background-size: cover;
-  }
   .back h2 {
     font-family: "Lato", sans-serif;
     font-weight: 900;
   }
 </style>
 
-<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;" id="bgImage">
   <div class="row header p-6 m-5">
     <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
       <h2>
@@ -158,5 +154,12 @@
    from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
   </div>
 </div>
-
+<script type="text/javascript">
+    $( document ).ready(function() {
+        numberOfImages = 9;
+        imageId = Math.floor(Math.random() * (numberOfImages))+1
+        bgImageUrl = 'static/images/background/'+imageId+'.jpg';
+        $('#bgImage').css('background-image', 'url(' + bgImageUrl + ')');
+    });
+    </script>
 {% endblock %}
