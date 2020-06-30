@@ -381,8 +381,8 @@
     "title": "Board games (finals)",
     "start": "2020-07-05T15:00:00+00:00",
     "end": "2020-07-05T16:00:00+00:00",
-    "location": "",
-    "link": "",
+    "location": "/calendar.html#tab-day5",
+    "link": "/calendar.html#tab-day5",
     "category": "time",
     "calendarId": "fun"
   },
