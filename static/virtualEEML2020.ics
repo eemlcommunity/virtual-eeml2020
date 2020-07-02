@@ -310,7 +310,7 @@ LAST-MODIFIED:20200630T214507Z
 LOCATION:https://virtual.eeml.eu/calendar.html#tab-day3
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:#gm Good morning from Warsaw
+SUMMARY:#gm Good morning from Wroclaw
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -493,7 +493,7 @@ LAST-MODIFIED:20200630T215034Z
 LOCATION:https://virtual.eeml.eu/calendar.html#tab-day6
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:#gm Good morning from Poznan
+SUMMARY:#gm Good morning from Warsaw
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -651,7 +651,7 @@ LAST-MODIFIED:20200630T215226Z
 LOCATION:https://virtual.eeml.eu/calendar.html#tab-day7
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:#gm Good morning from Wroclaw
+SUMMARY:#gm Good morning from Poznan
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
