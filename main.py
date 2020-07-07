@@ -132,10 +132,10 @@ def sponsors():
     return render_template("sponsors.html", **data)
 
 
-@app.route("/postersessions.html")
-def postersessions():
-    data = _data()
-    return render_template("postersessions.html", **data)
+# @app.route("/postersessions.html")
+# def postersessions():
+#     data = _data()
+#     return render_template("postersessions.html", **data)
 
 
 @app.route("/slido.html")
